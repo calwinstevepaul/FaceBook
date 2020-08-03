@@ -1,0 +1,245 @@
+.navbar{
+    min-height: 60px;
+    height: 11%;
+    background-color: white;
+    box-shadow: 3px 3px 10px -2px #ccc; 
+    display: flex;
+    justify-content: space-around;
+    align-items: center;   
+
+
+}
+.navbar-search input{
+    padding: 10px;
+    font-size: 15px;
+    background-color: #F0F2F5;
+    outline: none;
+    border: none;
+    border-radius: 15px;
+
+}
+.body{
+    height: 89%;
+}
+.home {
+    height: 100vh;
+    width: 100vw;
+    background-color: #F0F2F5;
+}
+.navbar-inner-1{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 33.3%;
+} 
+.navbar-inner-2{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 33.3%;
+}
+.navbar-inner-2 button{
+    padding: 15px 30px;
+    border: none;
+    outline: none;
+    background-color: white;
+    font-size: 20px;
+    border-radius: 13px;
+
+}
+.navbar-inner-2 button:hover{
+   background-color: #DDDDDD;
+   
+}
+.navbar-inner-3{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 33.3%;
+}
+
+.logo{
+    font-size: 50px;
+    color: blue;
+}
+.info{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}  
+.info-inner{
+    height: 70vh;
+    width: 70vw;
+    border: 1px solid #CCCED0;
+    background-color: white;
+    box-shadow: 0px 0px 10px 1px #ccc;    
+    padding: 10px;
+
+}
+.info-inner button{
+    padding: 7px;
+    font-size: 12px;
+}
+.info-edit{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+button{
+    cursor: pointer;
+}
+.newsfeed{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow-y: scroll;
+}
+.post{
+    margin: 10px;
+    width: 40%;
+    height: fit-content;
+    background-color: white;
+    border: 1px solid #E2E4E7;
+    box-shadow: 0px 0px 10px 1px #ccc;    
+
+}
+.post-1{
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.post-1-1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+.post-1-1 img{
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.post-time{
+    color: #72708C;
+    font-size: 13px;
+    margin: 0;
+    font-weight: normal;
+}
+.post-2{
+    padding:10px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.post-4{
+    padding: 10px;
+}
+.post-5{
+    padding: 10px;
+}
+.post-5 button{
+    font-size: 20px;
+    margin: 0 7px;
+    padding: 10px;
+    border-radius: 50%;
+    outline: none;
+    border: none;
+    background-color: white;
+}
+.post-5 button:hover{
+    background-color: #ccc;
+}
+.post-like{
+    color: #4080FF;
+}
+.navbar-inner-3 button{
+    padding: 7px;
+    background-color: #F0F2F5;
+    font-weight: bold;
+    outline: none;
+    border: none;
+}
+.navbar-inner-3 button:hover{
+    
+    background-color: #ccc;
+    border: none;
+}
+.post-6-1{
+    display: flex;
+    align-items: center;
+    padding: 4px 10px;
+}
+.post-6-1-1 img{
+    border-radius: 50%;
+    margin-right: 5px;
+}
+.post-6-1-2{
+    font-size: 14px;
+    padding: 10px;
+    background-color: #F0F2F5;
+    border-radius: 20px;
+}
+.post-6-1-2 p{
+    margin: 0px ;
+    margin-bottom: 3px;
+    font-weight: bold;
+    
+}
+
+
+
+.post-7{
+    padding: 10px;
+}
+.post-7 button{
+    width: 17%;
+    border: none;
+    background-color: #F0F2F5;
+    padding: 9px;
+    font-size: 15px;
+    border-radius: 0px 20px 20px 0px;
+    outline: none;
+    color: #746C7D;
+    font-weight: bold;
+}
+.post-7 button:hover{
+    color: rgb(14, 150, 204);
+}
+.post-comment{
+    width: 75%;
+    border: none;
+    background-color: #F0F2F5;
+    padding: 7px 7px 7px 20px;
+    font-size: 17px;
+    border-radius: 20px 0px 0px 20px;
+    outline: none;
+}
+.dropdown{
+    width: 22%;
+    height: fit-content;
+    background-color: white;
+    position: absolute;
+    border: 1px solid #ccc;
+    margin-left: 2px;
+}
+.close{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+    background-color: rgba(0, 0, 0, 0);
+}
+.dropdown-inner{
+    display: flex;
+    align-items: center;
+    padding: 7px;
+    justify-content: space-evenly;
+}

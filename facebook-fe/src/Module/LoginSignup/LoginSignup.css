@@ -1,0 +1,109 @@
+.loginsignup{
+    height: 100vh;
+    width: 100vw;
+    background-color: #E9EBEE;
+}
+.login{
+    height: 13.2%;
+    width: 100%;
+    min-height: 60px;
+    background-image: linear-gradient(#4C68A1,#3B5998,#4C68A1);
+    display: flex;
+    align-items: center;
+    /* justify-content: space-evenly; */
+}
+.login-inner-1{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.login-inner-2{
+    width: 35%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.login-input{
+    margin-right: 13px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+}
+.login-input label{
+    margin: 3px 0;
+    font-size: 12px;
+    font-weight: 400;
+
+}
+.login-input p{
+    margin: 3px 0;
+    font-size: 12px;
+    font-weight: 300;
+
+}
+.login-input p input{
+    padding: 3px;
+}
+.login-inner-2{
+    display: flex;
+    align-items: baseline;
+}
+.login-inner-3{
+    display: flex;
+    flex-direction: column;
+}
+.login-inner-3 button{
+    border: none;
+    outline: none;
+    background-color: #4267b2;
+    border: 1px solid #29487d;
+    color: white;
+    font-size: 13px;
+    font-weight: bold;
+    padding: 5px;
+}
+.login-inner-3 button:hover{
+    background-color: #365899;
+}
+.signup{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 70%;
+}
+.signup-inner-1{
+    margin-bottom: 30px;
+}
+.signup-inner-1-1 {
+    font-size: 35px;
+    font-weight: bold;
+    color: #333333;
+    margin: 0px;
+}
+.signup-inner-1-2 {
+    font-size: 17px;
+    margin: 0px;
+    color: #333333;
+}
+.signup-input{
+    padding: 5px;
+}
+.signup-input input{
+    padding: 7px;
+    font-size: 17px;
+    width: 300px;
+    border-radius: 3px;
+    border:none;
+    border: solid 1px #BDC7D8;
+}
+.signup-button{
+    padding: 7px;
+    background-image: linear-gradient(#66AB54,#66AB54,#5D974B,#598E46,#578843);
+    border: solid 1px #3B6D22;
+    color: white;
+    font-weight: bolder;
+    width: 150px;margin: 20px;
+}
